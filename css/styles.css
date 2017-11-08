@@ -6,6 +6,12 @@ section {
     padding-bottom: 2.5em;
 }
 
+/*navigation*/
+nav a {
+    color: gray;
+}
+
+/*footer*/
 .bg-dark p {
     color: #ffffff;
 }
