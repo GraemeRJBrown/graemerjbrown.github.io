@@ -6,6 +6,21 @@ section {
     padding-bottom: 2.5em;
 }
 
+.full-viewport-height {
+    height: 800px; /* Default for browsers which do not support vh */
+    height: 100vh;
+}
+
+.section-landing {
+    height: 400px; /* Default for browsers which do not support vh */
+    height: 80vh;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
 /*navigation*/
 nav a {
     color: gray;
